@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "IRANYekanMedium";
+  src: local("IRANYekanMedium"),
+    url("./fonts//DIN/DIN/DIN\ Alternate\ Medium.ttf") format("truetype");
+}
+
+body {
+  direction: rtl;
+}
+
+.container {
+  background-color: #6a50d1;
+  color: white;
+  line-height: 50px;
+  font-size: 1.5rem;
+  font-family: IRANYekanMedium;
+  margin-top: 100px;
+}
+
+.container h3 {
+  padding-bottom: 30px;
+}

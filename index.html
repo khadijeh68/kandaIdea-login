@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <title>KandaIdea</title>
+  </head>
+  <body>
+    <!--Content-->  
+  <section class="p-3">
+    <div class="container mb-5">
+      <div class="row d-flex justify-content-between align-items-center">
+        <div class="col-12 col-md-8 col-lg-6">
+          <img src="./images/secondSlide.png"  alt="secondSlide-image">
+        </div>
+        <div class="col-12 col-md-8 col-lg-4">
+          <div class="d-flex flex-column align-items-center justify-content-center justify-content-lg-start mb-3">
+            <h2 class="pt-2"><strong>کندا ایده</strong> </h2>
+            <p  class="text-muted fs-3">تجربه مهندسی خلاق</p>
+        </div>
+                <form class="form">
+                  <div class="mb-4">
+                    <input type="text" class="form-control" id="username" placeholder="نام کاربری" required>
+                  </div>
+                  <div class="mb-4 d-flex align-items-center justify-content-between"><i class="bi bi-eye"></i>
+                    <input type="password" class="form-control" id="password" placeholder="کلمه عبور" required>
+                  </div>
+                  <div>
+                    <label class="form-forgot-label"><a href="" class="text-decoration-none" style="color: #484646;">آیا نام کاربری یا کلمه عبور را فراموش کرده اید؟</a></label>
+                  </div>
+                  <div class="text-center text-lg-center mt-4 pt-2">
+                    <button type="submit" class="btn btn-primary" id="login-btn">ورود به سامانه</button>
+                  </div> 
+                  <div class="row mt-3">
+                    <div class="col"><hr></div>
+                    <div class="col-auto" id="my-account"><span>
+                      آیا حساب کاربری ندارید؟
+                    </span>
+                    </div>
+                    <div class="col"><hr></div>
+                </div> 
+                <div class="text-center text-lg-center mt-3 pt-2">
+                  <button type="submit" class="btn btn-primary" id="account-btn">ساخت حساب کاربری</button>
+                </div> 
+                </form> 
+             
+      </div>
+    </div>
+  </section>
+  <script src="./app.js"></script>
+</body>
+  </body>
+</html>

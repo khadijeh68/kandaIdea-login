@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "IRANYekanBold";
+  src: local("IRANYekanBold"),
+    url("./fonts//DIN/DIN/DIN\ Alternate\ Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IRANYekanLight";
+  src: local("IRANYekanLight"),
+    url("./fonts//DIN/DIN/DIN\ Alternate\ Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IRANYekanMedium";
+  src: local("IRANYekanMedium"),
+    url("./fonts//DIN/DIN/DIN\ Alternate\ Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IRANYekanBlack";
+  src: local("IRANYekanBlack"),
+    url("./fonts/DIN/DIN/DIN\ BlackAlternate.ttf") format("truetype");
+}
+
+.container{
+margin-top: 80px;
+}
+
+.container h2 {
+  font-family: IRANYekanBold;
+}
+
+.form input {
+  direction: rtl;
+  border-width: 0 0 1px 0;
+  font-family: IRANYekanLight;
+}
+
+#register-btn {
+  border-radius: 30px;
+  font-family: IRANYekanLight;
+  font-size: 20px;
+  padding: 15px;
+}
+
+#account-btn {
+  border-radius: 30px;
+  font-family: IRANYekanLight;
+  font-size: 14px;
+  opacity: 0.5;
+  padding: 15px;
+}
+
+::placeholder{
+    font-family: IRANYekanLight;
+}

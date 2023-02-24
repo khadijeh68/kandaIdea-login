@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "IRANYekanBold";
+  src: local("IRANYekanBold"),
+    url("./fonts//DIN/DIN/DIN\ Alternate\ Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IRANYekanLight";
+  src: local("IRANYekanLight"),
+    url("./fonts//DIN/DIN/DIN\ Alternate\ Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IRANYekanMedium";
+  src: local("IRANYekanMedium"),
+    url("./fonts//DIN/DIN/DIN\ Alternate\ Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IRANYekanBlack";
+  src: local("IRANYekanBlack"),
+    url("./fonts/DIN/DIN/DIN\ BlackAlternate.ttf") format("truetype");
+}
+
+.main {
+  width: 100vw;
+  height: 800px;
+}
+
+.container {
+  margin-top:120px
+}
+
+.container h2 {
+  font-family: IRANYekanBold;
+  font-size: 4rem;
+}
+
+#login-btn {
+  border-radius: 30px;
+  font-family: IRANYekanLight;
+  font-size: 20px;
+  padding: 15px;
+}
+
+p {
+  font-family: IRANYekanLight;
+}
+
+.form input {
+  direction: rtl;
+  border-width: 0 0 1px 0;
+  font-family: IRANYekanLight;
+}
+
+#username,
+#password,
+.form-forgot-label a,
+.form span,
+#my-account span,::placeholder {
+  font-family: IRANYekanLight;
+}
+
+#account-btn {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: IRANYekanLight;
+  opacity: 0.5;
+  border-radius: 30px;
+  padding: 15px;
+}
